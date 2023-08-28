@@ -5,16 +5,16 @@ This project is an image hosting service that allows users to easily upload and 
 
 The service offers three built-in account tiers: Basic, Premium, and Enterprise, each offering distinct features:
 
-##Basic Tier:
+## Basic Tier:
 
 Users with the "Basic" plan can upload images and receive a link to a 200px height thumbnail.
-##Premium Tier:
+## Premium Tier:
 
 Users with the "Premium" plan can upload images and access multiple links:
 A 200px height thumbnail.
 A 400px height thumbnail.
 A link to the original uploaded image.
-##Enterprise Tier:
+## Enterprise Tier:
 
 Users with the "Enterprise" plan enjoy enhanced features, including:
 A 200px height thumbnail.
