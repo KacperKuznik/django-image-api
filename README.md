@@ -1,6 +1,5 @@
 # django-image-api
 
-# Usage
 This project is an image hosting service that allows users to easily upload and manage their images. The system provides a user-friendly API, with the option to run the application using Docker Compose for simplified deployment. Users can upload images through HTTP requests and view their uploaded images in a list format.
 
 The service offers three built-in account tiers: Basic, Premium, and Enterprise, each offering distinct features:
@@ -27,14 +26,15 @@ Thumbnail sizes of their choice.
 Inclusion or exclusion of links to the original uploaded file.
 The ability to generate expiring links for the images.
 
-# Setup without Docker
+# Usage
+## Setup without Docker
 ```
 cd django_rest_api
 pip install -r requirements.txt 
 python manage.py runserver 0.0.0.0:8000
 ```
 
-# Docker Setup
+## Docker Setup
 ```
 cd django_rest_api
 docker build . -t image_api
